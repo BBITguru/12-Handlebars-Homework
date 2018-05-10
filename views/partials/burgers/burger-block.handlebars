@@ -6,6 +6,6 @@
 --}}
 
   {{!-- Burger Row--}}
-  <button class="eat-burger" data-id="{{this.id}}" data-neweat="{{eat}}">Eat it!</button>
+  {{#unless eat}}<button class="eat-burger" data-id="{{this.id}}" data-neweat="{{eat}}">Eat it!</button>{{/unless}}
   {{burger_name}}
 </ul>
