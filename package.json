@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "BBITguru <jparker@bbit.guru>",
   "license": "ISC",
   "dependencies": {
     "add": "^2.0.6",
@@ -15,5 +15,6 @@
     "express-handlebars": "^3.0.0",
     "mysql": "^2.15.0",
     "yarn": "^1.6.0"
-  }
+  },
+  "repository": "https://github.com/BBITguru/12-Handlebars-Homework.git"
 }

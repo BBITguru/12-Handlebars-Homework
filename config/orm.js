@@ -81,7 +81,7 @@ var orm = {
         throw err;
       }
 
-      ba(result);
+      burgBase(result);
     });
   },
   delete: function(table, condition, burgBase) {
