@@ -1,9 +1,11 @@
-<li>
-  {{name}}
-
-  <button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
-    {{#if devour}}ORDER BURGER!{{else}}DEVOUR BURGER!{{/if}}
+<ul>
+  {{!-- Burgers that HAVE NOT been eaten 
+  <button class="change-eat" data-id="{{id}}" data-neweat="{{eat}}">
+    {{#if eat}}BURGER GOOD!{{else}}Update Burger{{/if}}
   </button>
+--}}
 
-  <button class="update-burger" data-id="{{this.id}}">Update!</button>
-</li>
+  {{!-- Burger Row--}}
+  <button class="eat-burger" data-id="{{this.id}}" data-neweat="{{eat}}">Eat it!</button>
+  {{burger_name}}
+</ul>
